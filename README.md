@@ -7,6 +7,10 @@ Might be TMI but came up with this app while doing Promises within GraphQL queri
 Part of this problem is implementing puppeteer at the same time.
 
 Puppeteer is mentionable because I believe one can possibly:
-bypass needing a C file, by using puppeteer to open a browser.launch({headless:false}) // headless or not Browser. 
-From that browser, head to text editor and automate an alert for the user. i.e. puppeteer visits (w3schools.com), enters boilerplate and types in alert(${msg})
+bypass needing a C file: 
+by using puppeteer to open a browser.launch({headless:false||true})
+From that browser, head to text editor and automate an alert for the user. 
+i.e. puppeteer visits (w3schools.com), enters boilerplate and types in alert(${msg})
+
+JS console helps since native method .alert() will be available on w3schools or other compiler
 
